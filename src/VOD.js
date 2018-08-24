@@ -1,7 +1,13 @@
 import React, { Component } from "react"
 import "./VOD.css"
+import PropTypes from "prop-types"
 
 class VOD extends Component {
+  static propTypes = {
+    title: PropTypes.string,
+    src: PropTypes.string
+  }
+
   render() {
     return (
       <div className="VOD">
