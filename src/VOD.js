@@ -5,7 +5,8 @@ class VOD extends Component {
   render() {
     return (
       <div className="VOD">
-        <video id="clip" controls preload="auto" width="640" height="264" data-setup="{}">
+        <p> {this.props.title}</p>
+        <video id="clip" controls preload="auto" data-setup="{}">
           <source src={this.props.src} type="video/mp4" />
         </video>
       </div>
