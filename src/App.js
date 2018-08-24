@@ -25,7 +25,19 @@ const vodInfo = [
 ]
 
 class App extends Component {
+  // Render : componentWillMount() -> render() -> componentDidMount()
+  // Update : componentWillReceiveProps() -> shouldComponentUdate() -> componentWillUpdate() -> render() -> componentDidUpdate()
+
+  componentWillMount() {
+    console.log("Component Will Mount 1")
+  }
+
+  componentDidMount() {
+    console.log("Component Did Mount 3")
+  }
+
   render() {
+    console.log("Component Render 2")
     return (
       <div className="App">
         <header className="App-header">
