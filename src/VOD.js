@@ -4,8 +4,8 @@ import PropTypes from "prop-types"
 
 class VOD extends Component {
   static propTypes = {
-    title: PropTypes.string,
-    src: PropTypes.string
+    title: PropTypes.string.isRequired,
+    src: PropTypes.string.isRequired
   }
 
   render() {
