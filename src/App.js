@@ -32,10 +32,6 @@ const vodInfo = [
     src: "https://s3.ap-northeast-2.amazonaws.com/readyq/finshot_3.mp4"
   },
   {
-    title: "finshot_4.mp4",
-    src: "https://s3.ap-northeast-2.amazonaws.com/readyq/finshot_4.mp4"
-  },
-  {
     title: "finshot_7.mp4",
     src: "https://s3.ap-northeast-2.amazonaws.com/readyq/finshot_7.mp4"
   },
