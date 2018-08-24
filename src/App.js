@@ -32,18 +32,6 @@ const vodInfo = [
     src: "https://s3.ap-northeast-2.amazonaws.com/readyq/finshot_3.mp4"
   },
   {
-    title: "bid",
-    src: "https://s3.ap-northeast-2.amazonaws.com/readyq/bid.mp4"
-  },
-  {
-    title: "-LJHvqpY2YBbTuVpF4SY.mp4",
-    src: "https://s3.ap-northeast-2.amazonaws.com/readyq/-LJHvqpY2YBbTuVpF4SY.mp4"
-  },
-  {
-    title: "-LItDcleC7zqZJYzBdRA.mp4",
-    src: "https://s3.ap-northeast-2.amazonaws.com/readyq/-LItDcleC7zqZJYzBdRA.mp4"
-  },
-  {
     title: "-LIniJay7kv4TlyqBzOH.mp4",
     src: "https://s3.ap-northeast-2.amazonaws.com/readyq/-LIniJay7kv4TlyqBzOH.mp4"
   },
