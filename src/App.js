@@ -17,16 +17,6 @@ class App extends Component {
       {
         title: "가시화 Flow",
         src: "https://s3.ap-northeast-2.amazonaws.com/readyq/%EA%B0%80%EC%8B%9C%ED%99%94+Flow.mp4"
-      },
-      {
-        title: "가시화 flowMap",
-        src:
-          "https://s3.ap-northeast-2.amazonaws.com/readyq/%EA%B0%80%EC%8B%9C%ED%99%94+FlowMap.mp4"
-      },
-      {
-        title: "개인정보 접속기록 대시보드",
-        src:
-          "https://s3.ap-northeast-2.amazonaws.com/readyq/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EC%A0%91%EC%86%8D%EA%B8%B0%EB%A1%9D+%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C.mp4"
       }
     ]
   }
@@ -37,6 +27,23 @@ class App extends Component {
 
   componentDidMount() {
     console.log("Component Did Mount 3")
+    setTimeout(() => {
+      this.setState({
+        vodInfo: [
+          ...this.state.vodInfo,
+          {
+            title: "개인정보 접속기록 대시보드",
+            src:
+              "https://s3.ap-northeast-2.amazonaws.com/readyq/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EC%A0%91%EC%86%8D%EA%B8%B0%EB%A1%9D+%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C.mp4"
+          },
+          {
+            title: "가시화 flowMap",
+            src:
+              "https://s3.ap-northeast-2.amazonaws.com/readyq/%EA%B0%80%EC%8B%9C%ED%99%94+FlowMap.mp4"
+          }
+        ]
+      })
+    }, 5000)
   }
 
   render() {
